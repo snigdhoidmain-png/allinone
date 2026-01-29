@@ -1,0 +1,27 @@
+{
+  "name": "video-chat-app",
+  "version": "1.0.0",
+  "description": "Global video chat application with WebRTC",
+  "main": "signaling-server.js",
+  "scripts": {
+    "start": "node signaling-server.js",
+    "dev": "nodemon signaling-server.js"
+  },
+  "keywords": [
+    "webrtc",
+    "video",
+    "chat",
+    "calling",
+    "peer-to-peer"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.6.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
